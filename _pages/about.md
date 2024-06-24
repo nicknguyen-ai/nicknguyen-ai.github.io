@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate <br> Miami Herbert Business School
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: nick_portrait_2024.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>5250 University Dr</p>
@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am Nguyen (Nick) Nguyen, a Ph.D. candidate in `Marketing` at the `University of Miami`. Previously, I received my B.S. *magna cum laude* in `Computer Science and minor in Mathematics` from the `University of Miami`.
+Hello! I am a Ph.D. candidate in `Marketing` at the `University of Miami`. Previously, I received my B.S. *magna cum laude* in `Computer Science and minor in Mathematics` from the `University of Miami`.
 
 My primary research focuses on developing AI systems for "Content Management" as outlined in the papers below:
 
