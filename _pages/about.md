@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate <br> Miami Herbert Business School
 
 profile:
   align: right
-  image: nick_portrait_2024.jpg
+  image: nick_portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>5250 University Dr</p>
