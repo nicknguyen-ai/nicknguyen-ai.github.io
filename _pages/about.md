@@ -17,10 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am a Ph.D. candidate in `Marketing` at the `University of Miami`. Previously, I received my B.S. *magna cum laude* in `Computer Science and minor in Mathematics` from the `University of Miami`.
+Nguyen Nguyen’s research focuses on developing AI systems for content management in marketing. His work centers on building interpretable and scalable machine learning models that analyze unstructured data—such as email headlines and audio ads—to support more effective creative and campaign decisions. These AI systems aim to enhance marketers’ ability to generate, evaluate, and select high-performing content at scale.
 
-My primary research focuses on developing AI systems for "Content Management" as outlined in the papers below:
-
-[`EMOP (Email Open Rate Predictor)`](https://pubsonline.informs.org/doi/10.1287/mksc.2021.0126) is an AI system that helps marketers optimize email marketing campaigns. Specifically, EMOP can predict the open rate of a given email campaign based on its email headline, recipients, and sending time. Using EMOP, marketers can test unlimitedly different versions of email campaigns, thus identifying the optimal version to launch.
-
-`DeepAudio` is an AI system that assesses the likeability of audio ads. Nowadays, marketers can use generative AI to generate numerous audio ad executions and use ad-targeting platforms such as Spotify to deliver audio ads to targeted audiences. However, marketers currently lack an easy method to evaluate the effectiveness of their audio ads. By quickly assessing the likeability of multiple audio ads, DeepAudio enables marketers to select the most promising ad executions and fully harness the power of Generative AI. Thus, DeepAudio completes the modern pipeline of generating, selecting, and targeting audio ads.
+He has developed [`EMOP (Email Open Rate Predictor)`](https://pubsonline.informs.org/doi/10.1287/mksc.2021.0126), an AI system that forecasts the open rate of email campaigns based on subject lines, audience characteristics, and sending times. As an alternative to traditional A/B testing, EMOP empowers marketers to test unlimited campaign variations and identify the most effective version to launch.
