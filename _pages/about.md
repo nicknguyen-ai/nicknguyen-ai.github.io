@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Candidate <br> Miami Herbert Business School
+subtitle: Assistant Professor <br> Muma College of Business, University of South Florida
 
 profile:
   align: right
