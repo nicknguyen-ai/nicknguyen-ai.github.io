@@ -9,8 +9,8 @@ profile:
   image: nick_portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>5250 University Dr</p>
-    <p>Coral Gables, FL 33146</p>
+    <p>4202 E Fowler Ave</p>
+    <p>Tampa, FL 33620</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
