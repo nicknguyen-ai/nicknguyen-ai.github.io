@@ -108,54 +108,6 @@
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
     
-    <div id="login-wrapper">
-      <h3>Start Chatting with Alexa AI Teaching Assitant</h3>
-      <h3>Enter Access Code</h3>
-      <input type="password" id="access-code" placeholder="Access Code" />
-      <button onclick="verifyCode()">Enter</button>
-      <p id="error-msg" style="color:red; display:none;">Incorrect code. Try again.</p>
-    </div>
-
-    <div id="n8n-chat" style="display:none;"></div>
-
-    <script>
-      async function verifyCode() {
-        const input = document.getElementById('access-code').value;
-        const mar3700_correctCode = 'mar3700';
-
-        if (input === mar3700_correctCode) {
-          document.getElementById('login-wrapper').style.display = 'none';
-          document.getElementById('n8n-chat').style.display = 'block';
-
-          const chatModule = await import('https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js');
-          chatModule.createChat({
-            webhookUrl: 'https://nicknguyenhdv.app.n8n.cloud/webhook/e985d15f-b2f6-456d-be15-97e0b1544a40/chat',
-            target: '#n8n-chat',
-            mode: 'fullscreen',
-            chatInputKey: 'chatInput',
-            chatSessionKey: 'sessionId',
-            metadata: {},
-            showWelcomeScreen: false,
-            defaultLanguage: 'en',
-            initialMessages: [
-              'My name is Alexa. Your AI Teaching Assitant for MAR3700. How can I assist you today?'
-            ],
-            i18n: {
-              en: {
-                title: 'Hi there! 👋',
-                subtitle: "",
-                footer: '',
-                getStarted: 'New Conversation',
-                inputPlaceholder: 'Type your question..',
-              },
-            },
-          });
-        } else {
-          document.getElementById('error-msg').style.display = 'block';
-        }
-      }
-    </script>
-
 
   </body>
 </html>
